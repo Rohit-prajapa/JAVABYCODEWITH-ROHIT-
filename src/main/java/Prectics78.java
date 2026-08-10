@@ -7,7 +7,7 @@ class myThread3 extends Thread{
 public class Prectics78 {
     static void main() {
         Scanner sc=new Scanner(System.in);
-        myThread3 t1=new myThread3();
+        myThread3 t1=new myThread3(); 
         System.out.println("state is :"+t1.getState());
         t1.start();
         System.out.println("After start :"+t1.getState());
